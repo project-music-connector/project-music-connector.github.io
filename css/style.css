@@ -1,0 +1,73 @@
+body {
+    margin: 0px;
+}
+
+/*---------------HEADER------------------------*/
+
+#frontImage {
+    position: fixed;
+    width: 100%;
+    height: 400px;
+    /* The image used */
+    background-image: url("../images/makerfaire2016.jpg");
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#frontText {
+    text-align: center;
+    font-family: 'Share', cursive;
+    font-size: 90px;
+    font-weight: bolder;
+    padding-top: 10%;
+    color: white;
+}
+
+#navbar {
+    position: fixed;
+    width: 100%;
+    height: 80px; /*remember to change at #page padding*/
+    z-index: 100;
+}
+
+#navbarLogo {
+    position: absolute;
+    height: 100%;
+}
+
+#navbarLogo img {
+    height: 80%;
+    padding: 10%;
+}
+
+#navbarMenu ul {
+    float: right;
+}
+
+#navbarMenu li {
+    display: inline;
+    margin: 0;
+}
+
+#navbarMenu li a {
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+/*-----------------------Page----------*/
+
+/* To Implement:
+    use window.pageYOffset to detect when window has been scrolled
+    and change the background of navbar to white.
+*/
+
+#page img {
+    position: relative;
+    top: 400px;
+}
+

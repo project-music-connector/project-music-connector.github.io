@@ -1,0 +1,197 @@
+body {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+}
+
+#wrapper {
+    position: static;
+    min-height: 100%;
+}
+
+/*---------------HEADER------------------------*/
+/* https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_carousel&stacked=h */
+
+#frontImage {
+    /*position: absolute;*/
+    width: 100%;
+    height: 393px; /* remember to change at #page top*/
+    /* The image used */
+    background-image: url("../images/frontImage.jpg");
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#frontText {
+    text-align: center;
+    font-size: 90px;
+    font-weight: 700;
+    padding-top: 13%;
+    color: white;
+}
+
+#navbar {
+    position: fixed;
+    background-color: #1F4850;
+    width: 100%;
+    height: 80px; /*remember to change at #page padding*/
+    z-index: 100;
+}
+
+#navbarLogo {
+    position: absolute;
+    height: 100%;
+}
+
+#navbarLogo img {
+    height: 80%;
+    padding-top: 5%;
+}
+
+#navbarMenu ul {
+    float: right;
+    padding-top: 10px;
+}
+
+#navbarMenu li {
+    display: inline;
+    padding-right: 30px;
+}
+
+#navbarMenu li a {
+    text-align: center;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 14px;
+    color: white;
+}
+
+/*-----------------------Page----------*/
+
+/* To Implement:
+    use window.pageYOffset to detect when window has been scrolled
+    and change the background of navbar to white.
+*/
+
+#page {
+    /*position: relative;*/
+    width: 100%;
+    /*top: 553px; /* 473 (frontImage) + 80 (navbar)*/
+    color: black;
+    margin: 0px;
+	margin-bottom: 100px;
+	clear:both;
+    padding: 0px;
+}
+
+#pageText {
+    width: 70%;
+    margin: auto;
+    margin-top: 90px;
+}
+
+#pageText h1 {
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#pageText p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
+
+#links {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    /*position: absolute;*/
+    width: 75%;
+}
+
+.linkCard {
+    display: inline-block;
+    width: 70%;
+    margin: 2%;
+    padding-right: 20px;
+    border: 0px;
+    background-color: white;
+	text-align: right;
+	vertical-align:center;
+}
+
+.imgCard {
+	display: inline-block;
+	width: 20%;
+	vertical-align:center;
+}
+.imgCard img {
+    width: 100%;
+	border-radius: 50%;
+}
+
+.linkCard h2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.linkCard p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.linkCard a {
+    font-size: 10px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #1F4850;
+	padding: 0px;
+    border: 0px;
+}
+
+/*-----------------------FOOTER---------------*/
+#footer {
+    position: static;
+    width: 100%;
+}
+
+#footer1 {
+    background-color: #333333;
+    height: 110px;
+    margin: 0;
+    text-align: center;
+}
+
+#footer2 {
+    martin: 0;
+    height: 210px;
+    background-color: #1F1F1F;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+#footer2 ul {
+    padding-top: 110px;  
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+#footer2 li {
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+}

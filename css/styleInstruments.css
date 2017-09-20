@@ -1,16 +1,4 @@
-body {
-    margin: 0px;
-    font-family: 'Open Sans', sans-serif;
-    height: 100%;
-}
-
-#wrapper {
-    position: static;
-    min-height: 100%;
-}
-
 /*---------------HEADER------------------------*/
-/* https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_carousel&stacked=h */
 
 #frontImage {
     /*position: absolute;*/
@@ -33,56 +21,13 @@ body {
     color: white;
 }
 
-#navbar {
-    position: fixed;
-    background-color: #1F4850;
-    width: 100%;
-    height: 80px; /*remember to change at #page padding*/
-    z-index: 100;
-    opacity: 0.8;
-}
-
-#navbarLogo {
-    position: absolute;
-    height: 100%;
-}
-
-#navbarLogo img {
-    height: 80%;
-    padding-top: 5%;
-}
-
-#navbarMenu ul {
-    float: right;
-    padding-top: 10px;
-}
-
-#navbarMenu li {
-    display: inline;
-    padding-right: 30px;
-}
-
-#navbarMenu li a {
-    text-align: center;
-    text-decoration: none;
-    font-weight: 800;
-    font-size: 14px;
-    color: white;
-}
-
 /*-----------------------Page----------*/
-
-/* To Implement:
-    use window.pageYOffset to detect when window has been scrolled
-    and change the background of navbar to white.
-*/
 
 #page {
     width: 100%;
-    /*top: 553px; /* 473 (frontImage) + 80 (navbar)*/
-    color: black;
     margin: 0px;
     padding: 0px;
+    clear: both;
 }
 
 
@@ -150,39 +95,6 @@ body {
     margin-bottom: 5%;
 }
 
-/*-----------------------FOOTER---------------*/
-#footer {
-    clear: both;
-    position: static;
-    width: 100%;
-}
-
-#footer1 {
-    background-color: #333333;
-    height: 110px;
-    margin: 0;
-    text-align: center;
-}
-
-#footer2 {
-    margin: 0;
-    height: 210px;
-    background-color: #1F1F1F;
-    font-size: 15px;
-    font-weight: 400;
-    color: white;
-    text-align: center;
-}
-
-#footer2 ul {
-    padding-top: 110px;  
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-}
-
-#footer2 li {
-    display: inline-block;
-    padding-left: 30px;
-    padding-right: 30px;
+#instrumentContent iframe {
+    margin-left: 10%;
 }

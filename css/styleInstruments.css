@@ -47,7 +47,8 @@
 
 #sidebar a {
     text-decoration: none;
-    color: gray;
+    color: #096172;
+    font-variant: small-caps;
 }
 
 #sidebar b {
@@ -85,6 +86,13 @@
     padding-left: 4%;
     font-weight: 800;
     font-size: 30px;
+}
+
+#instrumentContent h1 {
+    padding-right: 15%;
+    padding-left: 2%;
+    font-weight: 800;
+    font-size: 40px;
 }
 
 #instrumentContent img {

@@ -6,14 +6,13 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> Project Music Connector </title>
-    <link rel="stylesheet" type="text/css" href="../css/styleInstruments.css" />
-    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleInstruments.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Share" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script type="text/javascript" src="../js/home.js"></script>
 </head>
 
 <body>
@@ -21,7 +20,7 @@
     <div id="navbar">
             <div id="navbarLogo">
                 <a href="home.html" >
-                <img src="../images/logo.png"> </a>
+                <img src="images/logo.png"> </a>
             </div>
             <div id="navbarMenu">
                 <ul>
@@ -50,19 +49,18 @@
             
         <div id="sidebar">
             <p> <a href="instruments.html"> Jello Piano</a></p>
-            <p> <a href="opticalTurntable.html"> Optical Turntable</a></p>
-            <b> <a href="maxMartenot.html"> Max Martenot 2.0</a></b>
+            <b> <a href="opticalTurntable.html"> Optical Turntable</a></b>
+            <p> <a href="maxMartenot.html"> Max Martenot 2.0</a></p>
             <p> <a href="pastInstruments.html"> Past Instruments</a></p>
         </div>
         
         <div id="instrumentContent">
-            <h4> Max Martenot 2.0 is our second iteration of <a href="pastInstruments.html">Max Martenot 1.0</a>, one of Avrosh Kumar's projects from when he was a Music Technology masters student at Georgia Tech. His original project can be found <a href="https://github.com/avroshk/MaxMartenot">here</a>. Max Martenot is inspired by the <a href="https://en.wikipedia.org/wiki/Ondes_Martenot">Ondes Martenot</a>, one of the earliest electronic musical instruments, invented in 1928 by Maurice Martenot. Max Martenot, like Ondes Martenot, has a continuous slide controller to control pitch. Max Martenot 2.0 also draws inspiration from the <a href="https://en.wikipedia.org/wiki/Theremin">Theremin</a>, also invented in 1928, by allowing players to expressively control volume using their hand's proximity to the instrument. </h4>
+            <h4> Inspired by Avoka's <a href="https://www.avoka.fr/portfolio/dyskograf/">Dyskograf</a>, we present an Arduino-powered turntable for which you can draw your own "vinyls". A plate turns on a motor whose speed is controlled with a potentiometer. Drawings on circular discs are placed on the plate, and the drawing marks are detected by infrared sensors. A Processing code reads the sensor data and interprets it, playing or generating sounds. Hence, your drawings are transformed into looping music! </h4>
+            <img src="images/turntable.JPG">
             
-            <h2> MORE ON ONDES MARTENOT AND THEREMIN </h2>
-            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KXuB62SMFvA" frameborder="0" allowfullscreen></iframe>
-            <br> <br>
-            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/v0aflcF0-ys" frameborder="0" allowfullscreen></iframe>
-            
+            <h2> THE SCIENCE BEHIND </h2>
+            <p> Black marks on a white surface are detected by RPR-220 infrared sensors -- the same technology that allows robots to follow lines, for example. Infrared (IR) sensors are composed of an IR-emitting light (an LED, to be more specific), and an IR-receiving phototransistor which detects the quantity of light in front of it. When the IR LED emits a light onto the drawing, the phototransistor detects how much light bounced back. This is how these sensors detect black vs. white. This information is all sent to a computer, where it is analyzed and processed to play sounds whenever there is a black mark. </p>
+            <img src="images/infrared_sensors.JPG">
             
             <br> <br> <br>
         </div>

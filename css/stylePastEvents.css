@@ -4,7 +4,7 @@
     width: 100%;
     height: 393px; /* remember to change at #page top*/
     /* The image used */
-    background-image: url("../images/ASOWorkshop.jpg");
+    background-image: url("../images/ASOWorkshop.JPG");
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;

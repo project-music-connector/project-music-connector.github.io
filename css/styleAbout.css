@@ -57,3 +57,8 @@
     display: block;
     margin: 0 auto;
 }
+
+#pageText img {
+    display: block;
+    margin: auto;
+}
